@@ -1,0 +1,56 @@
+[
+
+  {
+    "type": "input",
+    "id": "number",
+    "label": "Número de cuenta",
+    "appearance": "outline",
+
+    "validators": [
+      {
+        "name": "required",
+        "args": null,
+        "propertyName": "required",
+        "message": "Debes ingresar un número de cuenta"
+      }
+    ],
+
+    "gridItemClass": "grid-column-1-span-3",
+    "required": true
+  },
+
+  {
+    "type": "input",
+    "id": "name",
+    "label": "Nombre del titular",
+    "appearance": "outline",
+    "autocomplete": "tel",
+    "validators": [
+      {
+        "name": "required",
+        "args": null,
+        "propertyName": "required",
+        "message": "Debes ingresar el nombre del titular"
+      }
+    ],    
+    "gridItemClass": "grid-column-1"
+  },
+
+  {
+    "type": "input",
+    "id": "phoneNumber",
+    "label": "Número de contacto",
+    "appearance": "outline",
+    "autocomplete": "tel",
+    "validators": [
+      {
+        "name": "required",
+        "args": null,
+        "propertyName": "required",
+        "message": "Debes ingresar un número de contacto"
+      }
+    ],    
+    "gridItemClass": "grid-column-2"
+  }
+
+]

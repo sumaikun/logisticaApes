@@ -1,0 +1,121 @@
+<crm-command-bar>
+
+<button mat-button class="crm-command-bar-button" [disabled]="true">
+    <mat-icon>add</mat-icon>
+    {{ 'NEW' | translate }}
+</button>
+
+<button mat-button class="crm-command-bar-button" (click)="onRefresh()">
+    <mat-icon>refresh</mat-icon>
+    {{ 'REFRESH' | translate }}
+</button>
+
+</crm-command-bar>
+
+<div class="crm-component-title-container">
+<h1 class="crm-component-title"> {{ 'ACTIVITIES_HEADER' | translate }} </h1>
+</div>
+
+
+<div class="crm-activities-container">
+
+    <div class="crm-task-list-container">
+            <mat-nav-list style="padding-top: 0"> 
+                    <mat-expansion-panel>
+                        
+                        <mat-expansion-panel-header>                          
+                            <mat-panel-title>
+                                <mat-icon matListIcon>folder</mat-icon>                                
+                                <span class="doc_description">Hojas de vida de proyectos</span>
+                            </mat-panel-title>
+                           
+                        </mat-expansion-panel-header>
+                        
+                        <mat-list>
+                            <mat-list-item>
+                                  <mat-icon matListIcon class="crm-task-list-icon"> assignment </mat-icon>  
+                                  <h3 matLine> Proyecto GP-001 </h3>
+                                  <p matLine>
+                                    <span> Demo</span>
+                                    <span class="demo-2"> casa toro </span>
+                                  </p>
+                            </mat-list-item>
+                            <mat-list-item>
+                                    <mat-icon matListIcon class="crm-task-list-icon"> assignment </mat-icon>  
+                                    <h3 matLine> Proyecto GP-002 </h3>
+                                    <p matLine>
+                                      <span>Demo</span>
+                                      <span class="demo-2"> Team </span>
+                                    </p>
+                              </mat-list-item>
+                        </mat-list>
+                        
+                    </mat-expansion-panel>              
+            </mat-nav-list>
+            <mat-nav-list style="padding-top: 0"> 
+                    <mat-expansion-panel>
+                        
+                        <mat-expansion-panel-header>                          
+                            <mat-panel-title>
+                                <mat-icon matListIcon>folder</mat-icon>                                
+                                <span class="doc_description">Ordenes de pedido</span>
+                            </mat-panel-title>
+                           
+                        </mat-expansion-panel-header>
+                        
+                        <mat-list>
+                            <mat-list-item>
+                                  <mat-icon matListIcon class="crm-task-list-icon"> assignment </mat-icon>  
+                                  <h3 matLine> Pedido ZB-001 </h3>
+                                  <p matLine>
+                                    <span> Pedido Becket</span>
+                                    <span class="demo-2"> No. sdsa123 </span>
+                                  </p>
+                            </mat-list-item>
+                            <mat-list-item>
+                                    <mat-icon matListIcon class="crm-task-list-icon"> assignment </mat-icon>  
+                                    <h3 matLine> Pedido ZB-002 </h3>
+                                    <p matLine>
+                                      <span>Casilleros zenderbox</span>
+                                      <span class="demo-2"> No.56775334 </span>
+                                    </p>
+                              </mat-list-item>
+                        </mat-list>
+                        
+                    </mat-expansion-panel>              
+            </mat-nav-list>
+            <mat-nav-list style="padding-top: 0"> 
+                    <mat-expansion-panel>
+                        
+                        <mat-expansion-panel-header>                          
+                            <mat-panel-title>
+                                <mat-icon matListIcon>folder</mat-icon>                                
+                                <span class="doc_description">packing</span>
+                            </mat-panel-title>
+                           
+                        </mat-expansion-panel-header>
+                        
+                        <mat-list>
+                            <mat-list-item>
+                                  <mat-icon matListIcon class="crm-task-list-icon"> assignment </mat-icon>  
+                                  <h3 matLine> Packing MH-001 </h3>
+                                  <p matLine>
+                                    <span> packing Mario hernandez</span>
+                                    <span class="demo-2"> No. 00000123 </span>
+                                  </p>
+                            </mat-list-item>
+                            
+                        </mat-list>
+                        
+                    </mat-expansion-panel>              
+            </mat-nav-list>
+    </div>
+    
+    <div class="crm-task-container" style="background: #1A3B5E;">
+            <app-planet></app-planet>
+    </div>
+
+</div>
+
+
+

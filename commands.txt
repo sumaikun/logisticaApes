@@ -1,0 +1,59 @@
+Create Project
+
+    -- ng new serendipity
+
+Add angular material
+
+    -- ng add @angular/material 
+
+Generate based on material
+
+    -- ng generate @angular/material:material-nav --name=nav
+
+
+Build from projects folder (aditional libraries)
+
+    ng build utils && \
+    ng build serendipity-components && \
+    ng build auth && \
+    ng build auth-auth0 && \
+    ng build auth-okta && \
+    ng build dashboard-widgets && \
+    ng build dashboard && \
+    ng build dynamic-forms && \
+    ng build auth-local && \
+    ng build flowable && \
+    ng build sales
+
+All this projects are different software that is compile along with the project this give more flexibility to folder aditional
+project setup.
+
+
+Manage different enviroments
+
+
+https://blog.angulartraining.com/how-to-manage-different-environments-with-angular-cli-883c26e99d15
+
+By default are on enviroment folder and execute program with prod flag
+
+
+https://github.com/Robinyo/serendipity/blob/master/docs/developer.md
+
+
+Besides of external projects this project uses service workers and flexlayouts
+
+https://angular.io/guide/service-worker-intro --> offline interaction
+
+https://github.com/angular/flex-layout --> responsive design
+
+For forms use dynamic-forms which build forms from json data and highcharts for charts
+
+https://tiberiuzuld.github.io/angular-gridster2/  --> form make editable grids of data
+
+https://www.highcharts.com/demo --> for make interactive charts
+
+https://sindresorhus.com/screenfull.js/ --> screenfull plugin for make the screen full screen
+
+https://www.npmjs.com/package/ng-dynamic-component --> dynamic component change dynamically 
+
+https://www.npmjs.com/package/date-fns --> manage and comprehension of data

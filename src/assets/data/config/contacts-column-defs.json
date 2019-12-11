@@ -1,0 +1,29 @@
+[
+
+    {
+      "name": "displayName",
+      "displayName": "COMPANY_NAME",
+      "class": "anchor"
+    },
+    {
+      "name": "email",
+      "displayName": "EMAIL",
+      "class": ""
+    },
+    {
+      "name":  "serviceType",
+      "displayName": "SERVICE_TYPE",
+      "class": ""
+    },
+    {
+      "name":  "exporterConfirmation",
+      "displayName": "EXPORTER_CONFIRMATION",
+      "class": ""
+    },
+    {
+      "name":  "integrationLevel",
+      "displayName": "INTEGRATION_LEVEL",
+      "class": ""
+    }
+  ]
+  

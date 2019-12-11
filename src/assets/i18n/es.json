@@ -1,0 +1,63 @@
+{
+  "APP_NAME": "PILA",
+  "APP_TOOLBAR_TITLE": "Plataforma Inteligente de Logística ",
+
+  "LOGIN_BUTTON": "Ingresar",
+  "LOGIN_LABEL": "Ingresar",
+  "DONT_HAVE_AN_ACCOUNT_LABEL": "¿No tiene una cuenta?",
+  "SIGN_UP_BUTTON": "Registrarse",
+
+  "REGISTER_BUTTON": "Registrar",
+  "REGISTER_LABEL": "Crear cuenta",
+
+  "MY_WORK": "My Trabajo",
+  "CUSTOMERS": "Clientes",
+
+  "ACCOUNTS_HEADER": "Cuentas",
+  "ACTIVITIES_HEADER": "Documentos",
+  "CONTACTS_HEADER": "Contactos",
+  "DASHBOARDS_HEADER": "Dashboard",
+  "LEADS_HEADER": "Leads",
+  "OPPORTUNITIES_HEADER": "Opportunities",
+
+  "CONTACT_HEADER": "Contacto",
+  "ACCOUNT_HEADER": "Cuenta",
+
+  "SALES_ACTIVITY_DASHBOARD_HEADER": "Actividad del Dashboard",
+
+  "ACCOUNTS": "Cuentas",
+  "ACTIVITIES": "Documentos",
+  "CONTACTS": "Clientes",
+  "DASHBOARDS": "Dashboard",
+  "LEADS": "Pedidos",
+  "OPPORTUNITIES": "Inventario",
+
+  "DEACTIVATE": "DEACTIVATE",
+  "EMAIL_A_LINK": "EMAIL A LINK",
+  "FULL_SCREEN": "PANTALLA COMPLETA",
+  "NEW": "NUEVO",
+  "REFRESH": "REFRESCAR",
+  "RUN_REPORT": "GENERAR REPORTE",
+  "SAVE": "GUARDAR",
+  "SAVE_AS": "GUARDAR COMO",
+  "SAVE_AND_CLOSE": "GUARDAR & SALIR",
+  "SET_AS_DEFAULT": "PONER POR DEFECTO",
+  "WIDGETS": "WIDGETS",
+
+  "FULL_NAME": "NOMBRE COMPLETO",
+  "EMAIL": "CORREO",
+  "COMPANY_NAME": "RAZON SOCIAL",
+  "BUSINESS_PHONE": "TELÉFONO",
+
+  "ACCOUNT_NAME": "TITULAR DE LA CUENTA",
+  "ACCOUNT_NUMBER": "NÚMERO DE CUENTA",
+
+  "SERVICE_TYPE": "TIPO DE SERVICIO",
+  "EXPORTER_CONFIRMATION": "CONFIRMACIÓN DE EXPORTACIÓN",
+  "INTEGRATION_LEVEL": "NIVEL DE INTEGRACIÓN",
+  "MAIN_PHONE": "NÚMERO DE CONTACTO",
+
+  "GENERAL_INFORMATION": "Información general",
+  "ADDRESS_INFORMATION": "Información de contacto"
+
+}

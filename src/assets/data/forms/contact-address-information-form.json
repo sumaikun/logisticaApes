@@ -1,0 +1,84 @@
+[
+
+  {
+    "type": "input",
+    "id": "line1",
+    "label": "Dirección de contacto 1",
+    "appearance": "outline",
+    "autocomplete": "address-line1",
+
+    "validators": [
+      {
+        "name": "required",
+        "args": null,
+        "propertyName": "required",
+        "message": "Debe ingresar una dirección"
+      }
+    ],
+
+    "gridItemClass": "grid-column-1-span-2"
+  },
+  {
+    "type": "input",
+    "id": "line2",
+    "label": "Dirección de contacto 2",
+    "appearance": "outline",
+    "autocomplete": "address-line2",
+
+    "gridItemClass": "grid-column-1-span-2"
+  },
+  {
+    "type": "input",
+    "id": "city",
+    "label": "Ciudad",
+    "appearance": "outline",
+    "autocomplete": "address-level2",
+
+    "validators": [
+      {
+        "name": "required",
+        "args": null,
+        "propertyName": "required",
+        "message": "Debes ingresar una ciudad"
+      }
+    ],
+
+    "gridItemClass": "grid-column-1"
+  },
+  {
+    "type": "input",
+    "id": "state",
+    "label": "Estado / Apartamento",
+    "appearance": "outline",
+    "autocomplete": "address-level1",
+
+    "validators": [
+      {
+        "name": "required",
+        "args": null,
+        "propertyName": "required",
+        "message": "Debes ingresar un estado"
+      }
+    ],
+
+    "gridItemClass": "grid-column-2"
+  },
+  {
+    "type": "input",
+    "id": "postalCode",
+    "label": "Código Postal",
+    "appearance": "outline",
+    "autocomplete": "postal-code",
+
+    "validators": [
+      {
+        "name": "required",
+        "args": null,
+        "propertyName": "required",
+        "message": "You must enter a Postal Code"
+      }
+    ],
+
+    "gridItemClass": "grid-column-3"
+  }
+]
